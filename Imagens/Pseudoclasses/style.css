@@ -1,0 +1,26 @@
+@charset "UTF-8";
+._div1 > p{
+        display: none;
+}
+._div1 {
+        display: inline-block;
+        background-color: aquamarine;
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+}
+._div1:hover > p {
+        display: block;
+}
+._div {
+        display: inline-block;
+        background-color: aquamarine;
+        border: 1px solid black;
+        text-align: center;
+        height: 200px;
+        width: 200px;
+}
+._div:hover{
+        background-color: blue;
+}

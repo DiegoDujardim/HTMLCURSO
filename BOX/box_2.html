@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            background-color:#F06E35;
+            padding: 2px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        header{
+            background-color: #EF9035;
+            border-radius: 20px 50px ;
+            box-shadow: 5px 10px 10px rgba(158, 77, 10, 0.405);
+            border: solid 2px;
+        }
+        article > p{
+            background-color:#F04E35 ;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 5px 10px 10px rgba(158, 77, 10, 0.405)
+        }
+        main{
+            background-color: #F0C235;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px;
+            margin: 10px;
+            border-radius:  50px 20px;
+        }
+        footer{
+            background-color: rgb(42, 138, 165);
+            text-align: center;
+            box-shadow: 3px 3px 3px black;
+        }
+        header > h1{
+            padding: 2px;
+            margin: auto;
+            text-align: center;
+        }
+        nav{
+            text-align: center;
+        
+        }
+        nav > a{
+            margin-right: 100px;
+            color: black;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Desgraçarias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, optio odio nesciunt eos asperiores recusandae quod alias quia ut consectetur. Debitis odio aut tempore quod beatae quisquam incidunt rem eos?</p>
+                <aside>
+                    <p>Artigo escrito por MortaFome!</p>
+                </aside>
+            </article>
+            <article class="art">
+
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi unde id, facilis beatae earum deleniti consectetur debitis atque totam repudiandae eum molestias ipsam! Officiis omnis nihil aperiam minus mollitia? Nobis?</p>
+            </article>
+        </section>
+
+    </main>
+      <footer>
+        <p>Desenvolvido por MortaFome </p>
+      </footer>
+</body>
+</html>
