@@ -1,2 +1,52 @@
 @charset "UTF-8";
 
+@font-face{
+    font-family: 'cordelina';
+    src: url(cordelina.otf);
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'eldes';
+    src: url(EldesCordel-Demo.otf);
+    font-weight: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-cordelina:'cordelina';
+    --font-eldes:'eldes';
+
+    --cor1:#FAE941;
+    --cor2:#FAD23E;
+    --cor3:#FABA3E;
+    --cor4:#FAA23E;
+    --cor5:#FA813E;
+}
+
+header{
+    background-color:#602302;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 5px;
+    box-shadow: 2px 5px 5px #36140166;
+}
+header h1{
+    font-family: var(--font-eldes);
+    font-size: 80px;
+    text-shadow: 2px 5px 5px #1508019b;
+}
+header h3{
+    font-family: var(--font-cordelina);
+    font-size: 20px;
+    padding: 5px;
+}
+body{
+    background-color: #FAE941;
+}
