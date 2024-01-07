@@ -58,10 +58,20 @@ a:hover{
 body{
     background-color: #FAE941;
 }
-div#inicio{
-    height: 150px;
-    background-color: #FA813E;
-    width: 150px;
+section#inicio{
+   background-image: url(sertãozão.jpg);
+   text-align: center;
+   font-size: 1.5em;
+   height: 300px;
+   background-position: left center;
+   background-attachment: fixed;
+}
+section#inicio  p{
+    padding: 100px 150px 150px 150px;
+    font-weight: bold;
+    color: #FAE941;
+    background-color: #9c490941;
+    padding-left: 10px;
 }
 section.normal{
     background-color: #FAE941;
@@ -80,6 +90,7 @@ section.imagem{
     line-height: 2em;
     padding-left: 30px;
     font-size: 1.2em;
+    background-attachment: fixed;
 
 }
 section.imagem > p{
