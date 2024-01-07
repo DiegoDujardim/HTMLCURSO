@@ -58,20 +58,28 @@ a:hover{
 body{
     background-color: #FAE941;
 }
-section{
+div#inicio{
+    height: 150px;
+    background-color: #FA813E;
+    width: 150px;
+}
+section.normal{
+    background-color: #FAE941;
+    color: #602302;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-size: 1.2em;
 }
-section.normal{
-    background-color: #FAE941;
-    color: #602302;
-}
 section.imagem{
     background-color: aliceblue;
     color: #FAD23E;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 1.2em;
 
 }
 section.imagem > p{
