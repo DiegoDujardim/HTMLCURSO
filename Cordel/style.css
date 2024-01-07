@@ -47,6 +47,54 @@ header h3{
     font-size: 20px;
     padding: 5px;
 }
+header a,footer a{
+    color: #FAE941;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
 body{
     background-color: #FAE941;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 1.2em;
+}
+section.normal{
+    background-color: #FAE941;
+    color: #602302;
+}
+section.imagem{
+    background-color: aliceblue;
+    color: #FAD23E;
+
+}
+section.imagem > p{
+    display: inline-block;
+    width: 400px;
+    background-color: #9c490941;
+    padding-left: 10px;
+}
+section#img01{
+    background-image: url(vaqueiro_nordestino.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(xandim_vaqueiro.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+footer{
+    background-color: #602302;
+    font-family: var(--font-cordelina);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
 }
