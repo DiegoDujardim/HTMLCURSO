@@ -5,21 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
 <style>
+    @font-face{
+    font-family: 'rock';
+    src: url(RAMEN\ ICHIKARU.otf);
+    font-weight: normal;
+    }
+    :root{
+        --font-rock:'rock'
+    }
     body{
         background-color: rgb(183, 76, 4);
     }
-    td{
+    td,th{
         border: 2px solid black;
-        width: 100px;
-        background-color: blanchedalmond;
-
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    caption{
-        border: 2px solid black;
+    thead > tr > th{
+        position: sticky;
+        top: -1px;
+        background-color: rgb(42, 38, 38);
     }
     table{
+        width: 400px;
         border-collapse: collapse;
+        position: relative;
     }
+    thead{
+        background-color: gray;
+        color: white;
+    }
+    caption{
+        font-weight: bold;
+        background-color: antiquewhite;
+        font-size: 1.5em;
+        font-family: var(--font-rock);
+    }
+    tbody > tr:nth-child(even){
+        background-color: gray;
+        color: white;
+    }
+
 </style>
 
 </head>
@@ -28,17 +54,17 @@
         <caption>
             Familias de Naruto
         </caption>
-      <theader>
+      <thead>
             <tr>
                 <th>Personagem</th>
                 <th>Familia</th>
             </tr>
-      </theader>
+      </thead>
       <tbody>
         <tr>
             <td>Naruto</td>
-            <td>Uzumaki</td>.
-        <tr>
+            <td>Uzumaki</td>
+        </tr>
          <tr>
             <td>Kushina</td>
             <td>Uzumaki</td>
@@ -50,7 +76,7 @@
         
         <tr>
             <td>Sasuke</td>
-            <td>Uchiha</td>.
+            <td>Uchiha</td>
         </tr>
         <tr>
             <td>Itachi</td>
@@ -100,9 +126,57 @@
             <td>Shino</td>
             <td>Aburame</td>
         </tr>
-        
-
-
+        <tr>
+            <td>Sasuke</td>
+            <td>Uchiha</td>
+        </tr>
+        <tr>
+            <td>Itachi</td>
+            <td>Uchiha</td>
+        </tr>
+        <tr>
+            <td>Fugaku</td>
+            <td>Uchiha</td>
+        </tr>
+        <tr>
+            <td>Mikoto</td>
+            <td>Uchiha</td>
+        </tr>
+        <tr>
+            <td>Hinata</td>
+            <td>Hyuga</td>
+        </tr>
+        <tr>
+            <td>Neji</td>
+            <td>Hyuga</td>
+        </tr>
+        <tr>
+            <td>Sikamaru</td>
+            <td>Nara</td>
+        </tr>
+        <tr>
+            <td>Shikaku</td>
+            <td>Nara</td>
+        </tr>
+        <tr>
+            <td>Ino</td>
+            <td>Yamanaka</td>
+        </tr>
+        <tr>
+            <td>Inoichi</td>
+            <td>Yamanaka</td>
+        </tr>
+        <tr>
+            <td>Choji</td>
+            <td>Akimichi</td>
+        </tr>
+        <tr>
+            <td>Choza</td>
+            <td>Akimichi</td>
+        </tr>
+        <tr>
+            <td>Shino</td>
+            <td>Aburame</td>
         </tr>
       </tbody>
      
