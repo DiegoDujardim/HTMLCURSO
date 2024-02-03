@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <div>
+            <h1 id="titulo">Cadaststro Escolar</h1>
+            <p id="sub">Faça seu cadastro aqui!</p>
+            <br>
+        </div>
+    <form action="">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="escola">Escola: </label>
+                <input type="text" name="escola" id="escola">
+            </div>
+            <div class="campo">
+                <label for="aluno">Aluno(a):</label>
+                <input type="text" name="sobrenome" id="aluno">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="campo">
+                <label for="ano">Série/Ano:</label>
+                <select name="ano" id="ano">
+                 <option value="" selected disabled value="">Selecione</option>
+                 <option value="">1ª</option>
+                 <option value="">2ª</option>
+                 <option value="">3ª</option>
+                </select>
+             </div>
+             <div class="campo">
+                <label for="turma">Turma:</label>
+                <select name="turma" id="turma">
+                 <option value="" selected disabled value="">Selecione</option>
+                 <option value="">101</option>
+                 <option value="">102</option>
+                 <option value="">201</option>
+                 <option value="">202</option>
+                 <option value="">301</option>
+                 <option value="">302</option>
+                </select>
+             </div>
+             <div class="campo">
+                <label for="turno">Turno:</label>
+                <select name="turno" id="turno">
+                 <option value="" selected disabled value="">Selecione</option>
+                 <option value="">Manhã</option>
+                 <option value="">Tarde</option>
+                 <option value="">Noite</option>
+                </select>
+             </div>
+        </fieldset>
+
+        <fieldset>
+            <div class="campo">
+                <label for="venc">Vencimento.:</label>
+                <input type="date" name="venc" id="venc">
+                <label for="mes">Mês:</label>
+                <input type="month" name="mes" id="mes">
+            </div>
+            <div class="campo">
+                <label for="mensa">Valor da mensalidade: </label>
+                <input type="number" name="mensa" id="mensa">
+             </div>
+             <div class="campo">
+                <label for="multa">Multa/Juros(+): R$</label>
+                <input type="number" name="multa" id="multa">
+                <label for="desc">Desconto (-) R$</label>
+                <input type="number" name="desc" id="desc">
+             </div>
+             <div class="campo">
+                <label for="total">Tortal: R$</label>
+                <input type="number" name="total" id="total">
+                <label for="pago">Pago em:</label>
+                <input type="date" name="pago" id="pago">
+             </div>
+        </fieldset>
+        <div>
+            <label for="resp">Responsavel: </label>
+            <input type="text" name="resp" id="resp">
+        </div>
+        <button class="botao" type="submit">Concluido</button>
+    </form>
+</body>
+</html>
